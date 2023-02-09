@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import '../assets/css/App.css';
+import Dropdown from './Dropdown';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const items = ['Yes', 'No', 'Probably Not'];
 
   return (
     <div className="App">
-      Hello
+      <Dropdown items={items}/>
     </div>
   )
 }
