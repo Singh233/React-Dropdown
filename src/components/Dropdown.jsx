@@ -12,14 +12,18 @@ const Dropdown = (items) => {
 
     return (
         <div className={styles.container}>
-            <p>Should you use a dropdown?</p>
-            <select value={value} onChange={handleChange}>
+            <p className={styles.title}>Should you use a dropdown?</p>
+
+            <select className={styles.select}  onChange={handleChange} name='Select'>
+                <option value="">Select Option</option>
                 {items.items.map((item) => {
                     return (
-                        <option key={`item-${item}`} value={item}  >{item}</option>
+                        <option key={`item-${item}`} value={item} >{item}</option>
                     )
                 })}
             </select>
+
+            <p>Answer: {value}</p>
         </div>
     )
 }
