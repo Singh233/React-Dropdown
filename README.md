@@ -1,7 +1,7 @@
 
 # ⬇️React-Dropdown-Component
 
-In this dropdown component user cam select one value from a list of options. The list of options is typically displayed in a menu that opens when the user clicks on a dropdown button or hover over it. The selected option is displayed in a box that is separate from the menu. This is implemented using front-end framework (React) and project is created using build tool (Vite).
+In this dropdown component user can select one value from a list of options. The list of options is typically displayed in a menu that opens when the user clicks on a dropdown button or hover over it. The selected option is displayed in a box that is separate from the menu. This is implemented using front-end framework (React) and project is created using build tool (Vite).
 
 
 ## Demo
