@@ -3,11 +3,12 @@ import '../assets/css/App.css';
 import Dropdown from './Dropdown';
 
 function App() {
-  const items = ['Yes', 'No', 'Probably Not'];
+  // Options array
+  const options = ['Yes', 'No', 'Probably Not'];
 
   return (
     <div className="App">
-      <Dropdown items={items}/>
+      <Dropdown options={options}/>
     </div>
   )
 }
